@@ -332,10 +332,18 @@ footer {
   .me-2 {
     margin-right: 0 !important;
   }
+
+  .card-image img {
+    height: unset;
+  }
 }
 
 @media only screen and (max-width: 375px) {
   html {
     font-size: 12px;
+  }
+
+  .card-image img {
+    height: unset;
   }
 }
